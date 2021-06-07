@@ -269,3 +269,62 @@ a {
     line-height: 27px;
     color: #C4C4C4;
 }
+
+.carousel {
+    margin-bottom: 100px;
+}
+
+.carousel__inner {
+    margin: 0 -7px;
+}
+
+.carousel__item {
+    margin: 0 7px;
+}
+
+.carousel__item-box {
+    border: 1px solid #C4C4C4;
+    padding: 6px 6px 16px 6px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.carousel__item-box:hover {
+    color: #fff;
+    background-color: #5A0D67;
+    border-color: #5A0D67;
+}
+
+.carousel__item-img {
+    width: 100%;
+    margin-bottom: 23px;
+}
+
+.carousel__item-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.carousel .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.carousel .slick-dots button {
+    font-size: 0;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+    background-color: #c4c4c4;
+    width: 50px;
+    height: 1px;
+    cursor: pointer;
+}
+
+.carousel .slick-active button {
+    background-color: #5A0D67;
+    height: 3px;
+}
