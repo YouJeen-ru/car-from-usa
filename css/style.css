@@ -86,13 +86,17 @@ a {
 }
 
 .header__social {
-    padding: 70px 0 20px 65px;
+    padding: 70px 0 20px 70px;
+
+}
+
+.social {
     display: flex;
     align-items: center;
 }
 
-.header__social-link {
-    margin-right: 10px;
+.social__link {
+    margin: 0 5px;
 }
 
 .header__images {
@@ -391,5 +395,17 @@ a {
     color: #fff;
     margin-top: 78px;
     cursor: pointer;
+}
+
+.footer {
+    background-color: #21062A;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 100px;
 }
 
